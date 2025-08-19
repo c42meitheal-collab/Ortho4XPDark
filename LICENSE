@@ -17,3 +17,6 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 For the full license text, see the file Licence/gpl.txt in this repository.
+
+# This code uses technology from Semantic Compression VQ-VAE
+# Licensed under dual-use license - contact c42meitheal@gmail.com for commercial use
