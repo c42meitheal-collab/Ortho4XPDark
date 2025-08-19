@@ -1,0 +1,82 @@
+cff-version: 1.2.0
+title: "Ortho4XPDark: Enhanced Orthoscenery Generation for X-Plane"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Ortho4XPDark Development Team"
+    given-names: ""
+repository-code: "https://github.com/c42meitheal-collab/Ortho4XPDark"
+url: "https://github.com/c42meitheal-collab/Ortho4XPDark"
+abstract: >-
+  Ortho4XPDark is an enhanced version of the original Ortho4XP 
+  orthoscenery generation tool for X-Plane flight simulator. 
+  It features a professional dark theme interface, intelligent 
+  DEM management for Ireland/UK regions, XRoads transparent roads 
+  integration, advanced forest management, and sophisticated 
+  multiplayer synchronization capabilities. Built with deep respect 
+  for the original Ortho4XP project and its community.
+keywords:
+  - flight-simulation
+  - x-plane
+  - orthoscenery
+  - photorealistic-scenery
+  - digital-elevation-model
+  - aviation-software
+  - ireland
+  - united-kingdom
+  - geospatial
+  - open-source
+license: GPL-3.0-or-later
+version: "1.0.0"
+date-released: "2025-08-19"
+identifiers:
+  - type: url
+    value: "https://github.com/your-org/Ortho4XPDark-Shadow/releases/tag/v1.0.0"
+    description: "Version 1.0.0 Shadow Release"
+references:
+  - type: software
+    title: "Original Ortho4XP"
+    authors:
+      - name: "Sonny"
+      - name: "Oscar Pilote"
+      - name: "shred86"
+    abstract: >-
+      The original Ortho4XP project that revolutionized X-Plane scenery 
+      generation and serves as the foundation for Ortho4XPDark.
+    repository-code: "https://github.com/shred86/Ortho4XP"
+  - type: software
+    title: "XRoads Transparent Roads"
+    authors:
+      - name: "melbo"
+    abstract: >-
+      Revolutionary transparent road overlay system that allows roads 
+      to show satellite imagery detail instead of artificial textures.
+    url: "https://forums.x-plane.org/profile/895828-melbo/"
+  - type: software
+    title: "X-Plane Flight Simulator"
+    authors:
+      - name: "Laminar Research"
+    abstract: >-
+      The advanced flight simulator platform that enables realistic 
+      orthoscenery integration and flight simulation experiences.
+    url: "https://www.x-plane.com"
+preferred-citation:
+  type: software
+  title: "Ortho4XPDark: Enhanced Orthoscenery Generation for X-Plane"
+  authors:
+    - family-names: "Ortho4XPDark Development Team"
+      given-names: ""
+  version: "1.0.0"
+  date-released: "2025-08-19"
+  repository-code: "https://github.com/c42meitheal-collab/Ortho4XPDark"
+  license: GPL-3.0-or-later
+  abstract: >-
+    Ortho4XPDark enhances the original Ortho4XP orthoscenery generation 
+    workflow with professional dark theme interface, intelligent automation 
+    for Ireland/UK regions, transparent road integration, and advanced 
+    forest management capabilities. The software maintains full compatibility 
+    with the X-Plane ecosystem while providing modern user experience 
+    improvements and specialized regional optimization.
+contact:
+  - email: "contact@ortho4xpdark.example"
+    name: "Ortho4XPDark Development Team"
