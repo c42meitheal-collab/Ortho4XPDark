@@ -1,0 +1,46 @@
+# Ortho4XPDark - Essential Dependencies Only
+# ==========================================
+# 
+# Minimal requirements for basic functionality
+# Install: pip install -r requirements_minimal.txt
+#
+
+# Core geospatial libraries (ESSENTIAL)
+gdal==3.11.1; platform_system == 'Windows'
+gdal==3.9.0; platform_system == 'Linux'  
+gdal==3.11.1; platform_system == 'Darwin'
+pyproj==3.7.1
+shapely==2.0.6
+Rtree==1.3.0
+
+# Core computing libraries (ESSENTIAL)
+numpy==1.26.4
+pillow==11.0.0
+scipy==1.13.1
+
+# Core networking (ESSENTIAL)
+requests==2.32.3
+urllib3==2.2.2
+
+# XRoads integration (ESSENTIAL)
+geojson==3.1.0
+
+# System utilities (ESSENTIAL)
+psutil==6.0.0
+tqdm==4.66.4
+
+# GUI enhancements (RECOMMENDED)
+ttkthemes==3.2.2
+colorama==0.4.6
+
+# Configuration support (RECOMMENDED)
+PyYAML==6.0.1
+
+# Platform-specific essentials
+pywin32==306; platform_system == 'Windows'
+
+# Installation notes:
+# ===================
+# This minimal set provides core Ortho4XP + XRoads functionality
+# For full features, use main requirements.txt
+# Install: pip install -r requirements_minimal.txt

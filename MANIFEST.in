@@ -1,0 +1,197 @@
+# Package manifest for Ortho4XPDark distribution
+# Includes essential files for proper installation and functionality
+
+# Core documentation
+include README.md
+include CHANGELOG.md  
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include ACKNOWLEDGMENTS.md
+include QUICK_START.md
+
+# License files
+include LICENSE
+include Licence/gpl.txt
+include Licence/copyright.txt
+
+# Citation and metadata
+include CITATION.cff
+
+# Python packaging
+include setup.py
+include requirements.txt
+include MANIFEST.in
+
+# GitHub templates and configuration
+recursive-include .github *.md *.yml *.yaml
+
+# Configuration files
+include *.cfg
+include *.json
+include *.txt
+exclude *.log
+
+# Scripts and executables
+include *.py
+include *.sh
+include *.bat
+include xroads.exe
+include xroads.c
+
+# Assets and branding
+recursive-include assets *
+include *.png
+include *.svg
+include *.gif
+include icons.gif
+
+# Essential data directories
+recursive-include demfiles *
+recursive-include enhanced_scenery_objects *
+recursive-include docs *
+recursive-include tools *
+recursive-include src *
+recursive-include Utils *
+
+# X-Plane specific directories
+recursive-include Extents *
+recursive-include Filters *
+recursive-include Patches *
+recursive-include Previews *
+recursive-include Providers *
+
+# Exclude development and temporary files
+exclude *.pyc
+exclude *.pyo
+exclude *.pyd
+exclude .DS_Store
+exclude Thumbs.db
+
+# Exclude cache and temporary directories
+recursive-exclude __pycache__ *
+recursive-exclude .mypy_cache *
+recursive-exclude .pytest_cache *
+recursive-exclude *.egg-info *
+
+# Exclude development environments
+exclude .venv
+recursive-exclude .venv *
+exclude venv
+recursive-exclude venv *
+
+# Exclude version control
+exclude .git
+recursive-exclude .git *
+exclude .gitignore
+
+# Exclude backup and temporary files
+exclude *~
+exclude *.bak
+exclude *.tmp
+exclude *.swp
+exclude *.swo
+exclude .last_gui_params.txt
+
+# Exclude test files and test data
+recursive-exclude tests *
+exclude test_*.py
+exclude *_test.py
+
+# Exclude development logs and reports
+exclude *.log
+exclude *.html
+exclude system_verification_report.json
+
+# Include specific essential files that might be excluded by patterns
+include ICON_SYSTEM_README.md
+include INSTALLATION_MIRROR_README.md
+include LAUNCHER_GUIDE.md
+include LAUNCH_STRATEGY_TODAY.md
+include MULTIPLAYER_SYNC_COMPLETE_GUIDE.md
+include UPDATE_MANAGEMENT_GUIDE.md
+include Enhanced_Scenery_Capabilities_Guide.md
+include README_COMPLETE.md
+include README_HONEST.md
+include XROADSREADME.md
+
+# Database files needed for functionality
+include *.db
+include scenery_coverage.db
+
+# Community and server configuration
+include community_server.txt
+
+# Install scripts for different platforms
+include install_*.sh
+include install_*.bat
+include mac_install.sh
+
+# Startup and launcher scripts
+include start*.bat
+include start*.sh
+include launch.py
+include enhanced_launcher.py
+include gui_launcher.py
+include gui_launcher_fixed.py
+include simple_launcher.py
+include unified_launcher.py
+include mirror_launcher.py
+
+# Core functionality scripts  
+include Ortho4XPDark.py
+include Ortho4XP.py
+include treelines_*.py
+include scenery_management_system.py
+include system_verification.py
+include system_analyser.py
+include enhanced_scenery_*.py
+include xplane_*.py
+include smart_installation_mirror.py
+
+# Utility and support scripts
+include quick_*.py
+include emergency_*.py
+include enhanced_*.py
+include comprehensive_*.py
+include install_update_system.py
+
+# Cleanup and maintenance scripts (keep essential ones)
+include run_cleanup.bat
+
+# Exclude removed development files that were moved to $Temp
+exclude test_*.py
+exclude *_test.py
+exclude cleanup*.py
+exclude verify_*.py
+exclude check_*.py
+exclude consolidate_*.py
+exclude create_*.py
+exclude convert_*.py
+exclude *verification*.py
+exclude system_cleanup*.py
+
+# Exclude development status and temporary files
+exclude STATUS*.md
+exclude FINAL_*.md
+exclude *.html
+exclude icon_*.py
+exclude *_backup*
+exclude road_autogen_prototype*.py
+exclude road_autogen_prototype*.json
+
+# Exclude development directories that were cleaned up
+recursive-exclude cleanup_backup *
+
+# Final includes for any missed essential files
+include *.md
+include *.txt
+include *.cfg
+include *.json
+include *.py
+include *.sh
+include *.bat
+include *.exe
+include *.png
+include *.svg
+include *.gif

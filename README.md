@@ -1,6 +1,3 @@
-# Ortho4XP
-![Lama](https://github.com/c42meitheal-collab/Ortho4XPDark-Shadow/blob/main/Lama.png)
-
 # 🌑 Ortho4XP Dark Edition
 
 **Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, XRoads transparent roads, and Ireland/UK specialisation.**
@@ -679,4 +676,3 @@ python Ortho4XPDark.py
 ```
 
 **Welcome to scenery generation! ✈️🌑🇮🇪**
-

@@ -1,0 +1,37 @@
+# Ortho4XPDark - Release Dependencies
+# =====================================
+# Clean, tested dependencies for stable release
+
+# Core GUI and image processing
+pillow>=9.0.0
+ttkthemes>=3.2.0
+psutil>=5.8.0
+
+# Networking for imagery download
+requests>=2.25.0
+urllib3>=1.26.0
+
+# Basic scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+
+# Basic geospatial (without GDAL initially)
+pyproj>=3.3.0
+shapely>=1.8.0
+
+# Configuration and utilities
+PyYAML>=6.0.0
+tqdm>=4.60.0
+colorama>=0.4.4
+
+# XRoads integration
+geojson>=2.5.0
+
+# Platform-specific essentials
+pywin32>=227; platform_system == "Windows"
+
+# Installation notes:
+# ===================
+# This is a conservative, tested dependency set
+# GDAL installation instructions provided separately
+# All packages verified to install cleanly via pip
