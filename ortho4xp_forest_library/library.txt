@@ -1,0 +1,62 @@
+# Ortho4XPDark Forest Library v1.0
+# Enhanced forest rendering for Ireland/UK orthoscenery
+# Based on community foundations with full attribution
+# 
+# Created by: Ortho4XPDark Development Team
+# Foundation: zzz_Treelines_Farms_Europe_v3 community library
+# Specialization: Ireland/UK regional optimization
+# License: Community contribution with full source attribution
+#
+# This library provides:
+# - Seasonal forest variations (spring/summer/autumn/winter)
+# - Ireland/UK regional tree species
+# - Hedgerow and stone wall compatibility  
+# - Optimized performance for orthoscenery
+# - Seamless XRoads transparent road integration
+#
+# All source materials properly attributed in FOREST_LIBRARY_ATTRIBUTION.md
+
+LIBRARY
+
+# Regional Forest Definitions
+# Ireland/UK optimized with proper species for latitude/climate
+
+# Deciduous Forests - Irish/UK Species
+FOREST_PROPERTY deciduous_oak_mixed ireland/deciduous_oak_mixed.for
+FOREST_PROPERTY deciduous_ash_birch ireland/deciduous_ash_birch.for  
+FOREST_PROPERTY deciduous_beech_mixed uk/deciduous_beech_mixed.for
+FOREST_PROPERTY mixed_broadleaf_valley ireland/mixed_broadleaf_valley.for
+
+# Coniferous Forests - Regional Plantations
+FOREST_PROPERTY coniferous_sitka_plantation ireland/coniferous_sitka_plantation.for
+FOREST_PROPERTY coniferous_scots_pine uk/coniferous_scots_pine.for
+FOREST_PROPERTY mixed_pine_spruce ireland/mixed_pine_spruce.for
+
+# Mixed Forests - Natural Combinations  
+FOREST_PROPERTY mixed_oak_pine ireland/mixed_oak_pine.for
+FOREST_PROPERTY mixed_deciduous_conifer uk/mixed_deciduous_conifer.for
+FOREST_PROPERTY transitional_woodland ireland/transitional_woodland.for
+
+# Hedgerows - Traditional Field Boundaries
+FOREST_PROPERTY hedgerow_hawthorn_traditional ireland/hedgerow_hawthorn_traditional.for
+FOREST_PROPERTY hedgerow_mixed_boundary uk/hedgerow_mixed_boundary.for
+FOREST_PROPERTY hedgerow_stone_wall_integrated ireland/hedgerow_stone_wall_integrated.for
+
+# Scrubland & Moorland - Upland Areas
+FOREST_PROPERTY scrubland_heather_gorse ireland/scrubland_heather_gorse.for
+FOREST_PROPERTY moorland_sparse_trees uk/moorland_sparse_trees.for
+FOREST_PROPERTY coastal_scrub ireland/coastal_scrub.for
+
+# Special Forest Features
+FOREST_PROPERTY ancient_woodland_remnant uk/ancient_woodland_remnant.for
+FOREST_PROPERTY riparian_woodland ireland/riparian_woodland.for
+FOREST_PROPERTY copse_field_corner ireland/copse_field_corner.for
+
+# Seasonal Variations Automatically Applied
+# X-Plane date determines texture selection:
+# March-May: Spring buds and early growth
+# June-August: Full summer foliage  
+# September-November: Autumn colors
+# December-February: Winter bare branches
+
+END_LIBRARY

@@ -1,0 +1,71 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d2d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1e1e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:0.6" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background with subtle gradient -->
+  <rect width="400" height="120" fill="url(#darkGradient)" rx="8" ry="8"/>
+  
+  <!-- Subtle border -->
+  <rect width="398" height="118" x="1" y="1" fill="none" stroke="#555555" stroke-width="1" rx="7" ry="7" opacity="0.3"/>
+  
+  <!-- Moon/Dark theme icon (subtle) -->
+  <circle cx="45" cy="35" r="12" fill="#4fc3f7" opacity="0.7"/>
+  <circle cx="48" cy="32" r="10" fill="#1e1e1e"/>
+  
+  <!-- Geographic reference - subtle Ireland outline -->
+  <path d="M 45 55 Q 42 60 45 65 Q 48 63 50 65 Q 52 62 50 58 Q 47 55 45 55 Z" fill="#4caf50" opacity="0.4"/>
+  
+  <!-- Main title -->
+  <text x="75" y="40" font-family="'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" filter="url(#glow)">
+    Ortho4XP
+  </text>
+  
+  <!-- Dark edition subtitle -->
+  <text x="210" y="35" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="300" fill="#4fc3f7">
+    Dark
+  </text>
+  <text x="245" y="35" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="300" fill="#cccccc">
+    Edition
+  </text>
+  
+  <!-- Professional tagline -->
+  <text x="75" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="400" fill="#cccccc" opacity="0.8">
+    Professional Interface Enhancement
+  </text>
+  
+  <!-- Subtle feature highlights -->
+  <text x="75" y="78" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" font-weight="300" fill="#4fc3f7" opacity="0.6">
+    Enhanced Workflow • Reduced Eye Strain • Ireland/UK Optimized
+  </text>
+  
+  <!-- Version indicator (very subtle) -->
+  <text x="340" y="105" font-family="'Segoe UI', system-ui, sans-serif" font-size="8" font-weight="300" fill="#666666" opacity="0.5">
+    Professional
+  </text>
+  
+  <!-- Subtle accent line -->
+  <line x1="75" y1="65" x2="320" y2="65" stroke="url(#accentGradient)" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Quality indicators (very subtle) -->
+  <circle cx="320" cy="25" r="2" fill="#4caf50" opacity="0.6"/>
+  <text x="328" y="28" font-family="'Segoe UI', system-ui, sans-serif" font-size="8" fill="#4caf50" opacity="0.6">
+    WCAG
+  </text>
+  
+  <circle cx="350" cy="25" r="2" fill="#4fc3f7" opacity="0.6"/>
+  <text x="358" y="28" font-family="'Segoe UI', system-ui, sans-serif" font-size="8" fill="#4fc3f7" opacity="0.6">
+    Pro
+  </text>
+</svg>
