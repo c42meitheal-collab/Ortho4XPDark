@@ -3,7 +3,7 @@
 
 # 🌑 Ortho4XP Dark Edition
 
-**Professional interface enhancement for Ortho4XP with comprehensive dark theme, forest management, and Ireland/UK specialization.**
+**Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, and Ireland/UK specialization.**
 
 ## ⚡ Quick Start
 
@@ -45,7 +45,7 @@ python Ortho4XPDark.py
 - **96% reduction** in manual DEM configuration time
 - **Professional workflow optimization** with error handling
 
-### 🔍 **Professional System Tools**
+### 🔍 **System Tools**
 - **X-Plane installation detection** across multiple installations
 - **Scenery package analysis** and verification
 - **Component integrity checking** with detailed reporting
@@ -53,7 +53,7 @@ python Ortho4XPDark.py
 
 ---
 
-## 📁 Professional Directory Structure
+## 📁 Directory Structure
 
 ```
 Ortho4XPDark/
@@ -144,7 +144,7 @@ python system_verification.py
 ## 🔧 Installation & Setup
 
 ### **Prerequisites:**
-- **Python 3.8+** (tested with 3.8, 3.9, 3.10, 3.11)
+- **Python 3.8+** (tested with 3.12)
 - **X-Plane 12** (any edition)
 - **Operating System:** Windows 10/11, macOS 10.15+, or Linux
 
@@ -190,7 +190,7 @@ The system requires these Python packages (automatically installed):
 
 ---
 
-## 🎨 Professional Features
+## 🎨 Features
 
 ### **🌑 Dark Theme Integration**
 
@@ -274,7 +274,7 @@ The system requires these Python packages (automatically installed):
 
 ---
 
-## 🛠️ Professional Tools & Utilities
+## 🛠️ Tools & Utilities
 
 ### **Assessment Tools:**
 ```bash
@@ -286,18 +286,6 @@ python system_verification.py
 
 # Essential files verification
 python verify_essentials.py
-```
-
-### **Branding Tools:**
-```bash
-# Generate professional branding assets
-python tools/create_branding.py
-
-# Convert SVG to PNG
-python tools/convert_to_png.py
-
-# Quick branding generation
-create_branding.bat
 ```
 
 ### **Organization Tools:**
