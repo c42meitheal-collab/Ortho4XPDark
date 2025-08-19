@@ -21,7 +21,7 @@ python Ortho4XPDark.py
 3. **Choose:** "Complete Dark Theme Integration" or "Interactive Forest Manager"
 
 ---
-!([Ortho4XP Dark Edition](https://github.com/c42meitheal-collab/Ortho4XPDark/blob/master/Ortho4XPDark2.jpg)
+![Ortho4XP Dark Edition](https://github.com/c42meitheal-collab/Ortho4XPDark/blob/master/Ortho4XPDark2.jpg)
 
 ## 🎯 Core Features
 
