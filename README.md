@@ -3,7 +3,7 @@
 
 # 🌑 Ortho4XP Dark Edition
 
-**Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, and Ireland/UK specialisation.**
+**Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, XRoads transparent roads, and Ireland/UK specialisation.**
 
 ## ⚡ Quick Start
 
@@ -45,6 +45,17 @@ python Ortho4XPDark.py
 - **96% reduction** in manual DEM configuration time
 - **Workflow optimisation** with error handling
 
+### 🛣️ **XRoads Transparent Roads (by melbo)**
+- **Revolutionary transparent road technology** from [melbo](https://forums.x-plane.org/profile/895828-melbo/)
+- **Show satellite imagery through roads** instead of artificial textures
+- **Ireland/UK optimised** with 0.85 transparency perfect for rural roads
+- **Automatic regional detection** based on tile coordinates (Dublin, Cork, Galway)
+- **GUI integration** with simple enable/disable controls and presets
+- **Perfect for narrow Irish roads** preserving stone walls and hedgerows
+- **Coastal enhancement** for accurate shoreline road representation
+- **Left-hand drive support** for UK/Ireland road networks
+- **Seamless workflow integration** - applied during normal tile building
+
 ### 🔍 **System Tools**
 - **X-Plane installation detection** across multiple installations
 - **Scenery package analysis** and verification
@@ -64,7 +75,14 @@ Ortho4XPDark/
 │   ├── treelines_manager.py     # Forest management system
 │   ├── treelines_integration.py # Forest integration
 │   ├── system_verification.py   # System verification
+│   ├── test_xroads.py           # XRoads integration testing
 │   └── scenery_management_system.py # Scenery analysis
+│
+├── 🛣️ XROADS TRANSPARENT ROADS
+│   ├── src/O4_XRoads_Utils.py   # XRoads core functionality
+│   ├── src/O4_XRoads_GUI.py     # XRoads GUI integration
+│   ├── src/O4_XRoads_Manager.py # XRoads management system
+│   └── XROADSREADME.md          # Complete XRoads documentation
 │
 ├── 🎨 BRANDING & TOOLS
 │   ├── assets/                  # Branding
@@ -78,7 +96,9 @@ Ortho4XPDark/
 │
 ├── 📖 DOCUMENTATION
 │   ├── README.md                # This comprehensive guide
-│   └── QUICK_START.md           # Essential quick reference
+│   ├── QUICK_START.md           # Essential quick reference
+│   ├── XROADSREADME.md          # XRoads documentation
+│   └── XROADS_INTEGRATION_COMPLETE.md # XRoads integration summary
 │
 ├── 🗂️ ORTHO4XP CORE
 │   ├── src/                     # Ortho4XP source code
@@ -147,21 +167,33 @@ python system_verification.py
 - **Python 3.8+** (tested with 3.8, 3.9, 3.10, 3.11)
 - **X-Plane 12** (any edition)
 - **Operating System:** Windows 10/11, macOS 10.15+, or Linux
+- **Internet connection** for dependency installation
+- **8GB+ RAM recommended** for full functionality
 
 ### **Installation Steps:**
 
-#### **Method 1: Standard Setup**
+#### **Method 1: Guided Installation (Recommended)**
 ```bash
-# 1. Install Python dependencies
-pip install -r requirements.txt
+# Run the installation helper
+python install_dependencies.py
 
-# 2. Launch main application
-python enhanced_launcher.py
-
-# 3. Follow guided setup in launcher
+# Choose option 1 (full) or 2 (minimal)
+# Follow the guided setup
 ```
 
-#### **Method 2: Direct Feature Access**
+#### **Method 2: Manual Installation**
+```bash
+# Full installation (all features)
+pip install -r requirements.txt
+
+# OR minimal installation (core features only)
+pip install -r requirements_minimal.txt
+
+# Then launch
+python enhanced_launcher.py
+```
+
+#### **Method 3: Direct Feature Access**
 ```bash
 # Dark theme integration
 python Ortho4XPDark.py
@@ -171,9 +203,12 @@ python treelines_manager.py
 
 # System verification
 python system_verification.py
+
+# XRoads testing
+python test_xroads.py
 ```
 
-#### **Method 3: Windows Quick Launch**
+#### **Method 4: Windows Quick Launch**
 ```batch
 # Double-click quick_launch.bat
 # Or from command line:
@@ -181,7 +216,34 @@ quick_launch.bat
 ```
 
 ### **Dependency Installation:**
-The system requires these Python packages (automatically installed):
+
+#### **🎯 Two Installation Options:**
+
+**Full Installation (requirements.txt):**
+- Complete Ortho4XP + XRoads + all enhancements
+- ~80+ packages for comprehensive functionality
+- 800MB-1.2GB download, 5-15 minute install
+- Includes all geospatial, GUI, and performance libraries
+- Recommended for full Ireland/UK specialization
+
+**Minimal Installation (requirements_minimal.txt):**
+- Core Ortho4XP + XRoads + basic enhancements
+- ~20 essential packages only
+- 200-400MB download, 2-5 minute install
+- Sufficient for most users and basic functionality
+- Fallback option if full installation fails
+
+#### **🔧 Installation Helper:**
+```bash
+# Guided installation with troubleshooting
+python install_dependencies.py
+
+# Provides system checks and error handling
+# Automatically selects best installation method
+# Includes platform-specific troubleshooting
+```
+
+#### **📦 Core Dependencies Include:**
 - `tkinter` (usually included with Python)
 - `PIL/Pillow` (image processing)
 - `pathlib` (path handling)
@@ -205,6 +267,30 @@ The system requires these Python packages (automatically installed):
 2. **Experience:** Complete dark theme across all interface elements
 3. **Configure:** All original Ortho4XP settings work exactly as before
 4. **Benefit:** Reduced eye strain during extended scenery generation sessions
+
+### **🛣️ XRoads Transparent Roads System**
+
+**What it includes:**
+- **Revolutionary technology** by [melbo](https://forums.x-plane.org/profile/895828-melbo/) from X-Plane.org
+- **Transparent road overlays** showing satellite imagery instead of artificial textures
+- **Ireland/UK specialisation** with 0.85 transparency perfect for rural roads
+- **Automatic regional detection** for Dublin (53,-6), Cork (51,-8), Galway (53,-9)
+- **GUI integration** with dedicated configuration tab
+- **Left-hand drive support** for UK/Ireland road networks
+
+**How to use:**
+1. **Test integration:** `python test_xroads.py`
+2. **Launch:** `python enhanced_launcher.py`
+3. **Select option 7:** XRoads Transparent Roads (GUI Interface)
+4. **Configure:** Set transparency, road types, and regional presets
+5. **Apply:** Enable for current tile or during normal building
+6. **Result:** Roads show actual satellite imagery preserving landscape detail
+
+**Ireland/UK Benefits:**
+- **Stone walls preserved** - Traditional landscape features remain visible
+- **Narrow rural roads** - Perfect for Irish country lanes
+- **Coastal accuracy** - Natural shoreline road integration
+- **Heritage landscapes** - Preserves cultural landscape character
 
 ### **🌲 Forest Management System**
 
@@ -313,19 +399,22 @@ python verify_and_organize.py
 
 ## 📖 Usage Workflows
 
-### **Workflow 1: First-Time Ireland/UK User**
+### **Workflow 1: First-Time Ireland/UK User with XRoads**
 1. **Setup:** `python enhanced_launcher.py`
-2. **Install forests:** Choose "Interactive Forest Manager"
-3. **Verify system:** Choose "Complete System Verification"
-4. **Configure dark theme:** Choose "Complete Dark Theme Integration"
-5. **Generate scenery:** Launch Ortho4XP with enhanced interface
+2. **Test XRoads:** Choose "Test XRoads Integration" (option 9)
+3. **Install forests:** Choose "Interactive Forest Manager"
+4. **Configure XRoads:** Choose "XRoads Transparent Roads" (option 7)
+5. **Verify system:** Choose "Complete System Verification"
+6. **Configure dark theme:** Choose "Complete Dark Theme Integration"
+7. **Generate scenery:** Launch Ortho4XP with enhanced interface and transparent roads
 
-### **Workflow 2: Existing Ortho4XP User**
-1. **Experience enhancement:** `python Ortho4XPDark.py`
-2. **Compare interface:** Original vs dark theme
-3. **Add forests:** `python treelines_manager.py`
-4. **Verify integration:** `python system_verification.py`
-5. **Use enhanced workflow:** Continue with familiar Ortho4XP process
+### **Workflow 2: Existing Ortho4XP User Adding XRoads**
+1. **Test integration:** `python test_xroads.py`
+2. **Experience enhancement:** `python Ortho4XPDark.py`
+3. **Enable XRoads:** `python enhanced_launcher.py` -> Option 7
+4. **Configure for Ireland/UK:** Set transparency 0.85, enable auto-detection
+5. **Apply to tiles:** Enable XRoads during tile building
+6. **Compare results:** Roads now show satellite imagery instead of textures
 
 ### **Workflow 3: Scenery Developer**
 1. **Complete setup:** `python enhanced_launcher.py`
@@ -429,6 +518,38 @@ Located in treelines_manager.py:
 
 ### **Common Issues:**
 
+#### **XRoads Integration Issues:**
+```bash
+# Test XRoads integration
+python test_xroads.py
+
+# Check XRoads components
+python enhanced_launcher.py  # Option 8: XRoads Management System
+
+# Verify XRoads files
+# Check src/O4_XRoads_Utils.py exists
+# Check src/O4_XRoads_GUI.py exists
+# Check src/O4_XRoads_Manager.py exists
+
+# Manual XRoads documentation
+# Read XROADSREADME.md for complete guide
+```
+
+#### **XRoads Configuration Problems:**
+```bash
+# Reset XRoads configuration
+# Delete XRoads config directories if corrupted
+
+# Check regional detection
+# Verify coordinates: Dublin (53,-6), Cork (51,-8), Galway (53,-9)
+
+# Manual transparency adjustment
+# Set transparency between 0.7-0.9 for optimal results
+
+# Check road type selection
+# Include: motorway, trunk, primary, secondary, tertiary, residential
+```
+
 #### **Dark Theme Not Applying:**
 ```bash
 # Check Python version
@@ -513,6 +634,7 @@ python system_verification.py
 This project builds upon Ortho4XP and respects all original license terms. See original Ortho4XP documentation for complete license information.
 
 ### **Acknowledgments:**
+- **[melbo](https://forums.x-plane.org/profile/895828-melbo/)** - Creator of XRoads transparent roads technology
 - **Ortho4XP development team** - Original application and continued development
 - **Ireland/UK X-Plane community** - Regional testing and feedback
 - **Professional accessibility standards community** - WCAG compliance guidance
@@ -531,9 +653,10 @@ This project builds upon Ortho4XP and respects all original license terms. See o
 ### **Benefits:**
 1. **🌑 Complete dark theme** - Reduces eye strain, enhanced appearance
 2. **🌲 Enhanced forests** - 1200+ European types with seasonal accuracy
-3. **🗺️ DEM automation** - 96% reduction in manual configuration
-4. **🔍 System verification** - Comprehensive checking and reporting
-5. **🇮🇪 Regional specialisation** - Optimised for Ireland/UK geography
+3. **🛣️ XRoads transparent roads** - Revolutionary technology by melbo showing satellite imagery
+4. **🗺️ DEM automation** - 96% reduction in manual configuration
+5. **🔍 System verification** - Comprehensive checking and reporting
+6. **🇮🇪 Regional specialisation** - Optimised for Ireland/UK geography
 
 ### **Technical Excellence:**
 - **Zero learning curve** - Same Ortho4XP workflow, enhanced interface
