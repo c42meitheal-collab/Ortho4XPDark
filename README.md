@@ -363,17 +363,7 @@ python system_verification.py
 python verify_essentials.py
 ```
 
-### **Branding Tools:**
-```bash
-# Generate professional branding assets
-python tools/create_branding.py
-
-# Convert SVG to PNG
-python tools/convert_to_png.py
-
-# Quick branding generation
-create_branding.bat
-```
+---
 
 ### **Organization Tools:**
 ```bash
