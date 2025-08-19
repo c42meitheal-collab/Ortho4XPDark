@@ -3,7 +3,7 @@
 
 # 🌑 Ortho4XP Dark Edition
 
-**Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, and Ireland/UK specialization.**
+**Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, and Ireland/UK specialisation.**
 
 ## ⚡ Quick Start
 
@@ -43,7 +43,7 @@ python Ortho4XPDark.py
 - **Automatic SRTM .hgt file detection** in demfiles/ folder
 - **Coordinate matching** for Ireland/UK coverage areas
 - **96% reduction** in manual DEM configuration time
-- **Professional workflow optimization** with error handling
+- **Workflow optimisation** with error handling
 
 ### 🔍 **System Tools**
 - **X-Plane installation detection** across multiple installations
@@ -67,7 +67,7 @@ Ortho4XPDark/
 │   └── scenery_management_system.py # Scenery analysis
 │
 ├── 🎨 BRANDING & TOOLS
-│   ├── assets/                  # Professional branding
+│   ├── assets/                  # Branding
 │   │   ├── Ortho4XPDark.svg         # Main logo
 │   │   ├── Ortho4XPDark_icon.svg    # Icon version
 │   │   └── BRANDING.md              # Branding guide
@@ -118,7 +118,7 @@ Ortho4XPDark/
 - **Full Attribution**: Every asset properly credited to original creators
 - **Cross-Platform**: Windows, macOS, Linux compatibility
 - **Performance Conscious**: Smooth operation over orthoscenery
-- **Professional Quality**: Consistent with project excellence standards
+- **Quality**: Consistent with project excellence standards
 
 ### **Quick Start for Contributors**
 ```bash
@@ -144,7 +144,7 @@ python system_verification.py
 ## 🔧 Installation & Setup
 
 ### **Prerequisites:**
-- **Python 3.8+** (tested with 3.12)
+- **Python 3.8+** (tested with 3.8, 3.9, 3.10, 3.11)
 - **X-Plane 12** (any edition)
 - **Operating System:** Windows 10/11, macOS 10.15+, or Linux
 
@@ -195,8 +195,8 @@ The system requires these Python packages (automatically installed):
 ### **🌑 Dark Theme Integration**
 
 **What it does:**
-- Transforms ALL Ortho4XP windows into professional dark interface
-- Optimizes icons and text for dark background visibility
+- Transforms ALL Ortho4XP windows into dark interface
+- Optimises icons and text for dark background visibility
 - Applies consistent styling across main window, config dialogs, earth preview, custom zoom windows
 - Maintains full Ortho4XP functionality while enhancing visual experience
 
@@ -274,7 +274,7 @@ The system requires these Python packages (automatically installed):
 
 ---
 
-## 🛠️ Tools & Utilities
+## 🛠️ Professional Tools & Utilities
 
 ### **Assessment Tools:**
 ```bash
@@ -286,6 +286,18 @@ python system_verification.py
 
 # Essential files verification
 python verify_essentials.py
+```
+
+### **Branding Tools:**
+```bash
+# Generate professional branding assets
+python tools/create_branding.py
+
+# Convert SVG to PNG
+python tools/convert_to_png.py
+
+# Quick branding generation
+create_branding.bat
 ```
 
 ### **Organization Tools:**
@@ -315,28 +327,28 @@ python verify_and_organize.py
 4. **Verify integration:** `python system_verification.py`
 5. **Use enhanced workflow:** Continue with familiar Ortho4XP process
 
-### **Workflow 3: Professional Scenery Developer**
+### **Workflow 3: Scenery Developer**
 1. **Complete setup:** `python enhanced_launcher.py`
 2. **System analysis:** Choose "Advanced Scenery Analysis"
-3. **Batch processing:** Utilize dark theme for extended sessions
+3. **Batch processing:** Utilise dark theme for extended sessions
 4. **Quality verification:** Use system verification for consistency
 5. **Production workflow:** Enhanced interface for efficiency
 
 ---
 
-## 🎨 Professional Branding
+## 🎨 Branding
 
 ### **Design Philosophy:**
-**Subtle Excellence** - Professional enhancement without obstruction
+**Subtle Excellence** - Enhancement without obstruction
 
 ### **Brand Elements:**
-- **Visual Identity:** Dark sophistication with professional blue accents
+- **Visual Identity:** Dark sophistication with blue accents
 - **Geographic Reference:** Subtle Ireland outline (green accent)
-- **Quality Indicators:** WCAG compliance and professional standards
+- **Quality Indicators:** WCAG compliance and standards
 - **Typography:** Clean, aerospace-inspired fonts
 
 ### **Assets Available:**
-- `assets/Ortho4XPDark.svg` - Main professional logo (400×120px)
+- `assets/Ortho4XPDark.svg` - Main logo (400×120px)
 - `assets/Ortho4XPDark_icon.svg` - Icon version (64×64px)
 - `assets/BRANDING.md` - Complete branding guide
 
@@ -353,7 +365,7 @@ Text Colors:
   #666666 - Low contrast (disabled)
 
 Accent Colors:
-  #4fc3f7 - Professional blue
+  #4fc3f7 - Blue
   #4caf50 - Success/Ireland green
   #ff9800 - Warning orange
   #f44336 - Error red
@@ -482,16 +494,16 @@ python system_verification.py
 - **Documentation:** Consolidated in main directory
 
 ### **Quality Standards:**
-- **WCAG 2.1 AA compliance** for accessibility
+- **WCAG accessibility standards** for accessibility
 - **Cross-platform compatibility** testing
-- **Professional software development** practices
+- **Software development** practices
 - **Comprehensive error handling** and user feedback
 
 ### **Version Control:**
-- Git repository with professional .gitignore
+- Git repository with .gitignore
 - Clean commit history focusing on functionality
 - Documentation updated with code changes
-- Professional release management
+- Release management
 
 ---
 
@@ -516,28 +528,28 @@ This project builds upon Ortho4XP and respects all original license terms. See o
 
 ## 🎯 Summary: Why Ortho4XP Dark Edition?
 
-### **Professional Benefits:**
-1. **🌑 Complete dark theme** - Reduces eye strain, professional appearance
+### **Benefits:**
+1. **🌑 Complete dark theme** - Reduces eye strain, enhanced appearance
 2. **🌲 Enhanced forests** - 1200+ European types with seasonal accuracy
 3. **🗺️ DEM automation** - 96% reduction in manual configuration
 4. **🔍 System verification** - Comprehensive checking and reporting
-5. **🇮🇪 Regional specialization** - Optimized for Ireland/UK geography
+5. **🇮🇪 Regional specialisation** - Optimised for Ireland/UK geography
 
 ### **Technical Excellence:**
 - **Zero learning curve** - Same Ortho4XP workflow, enhanced interface
 - **Full compatibility** - All original features work exactly as before
-- **Professional quality** - WCAG accessibility standards
+- **WCAG accessibility** standards
 - **Cross-platform** - Windows, macOS, Linux support
 
 ### **User Experience:**
-- **Clear entry point** - Single professional launcher
+- **Clear entry point** - Single launcher
 - **Honest documentation** - Accurate capability descriptions
-- **Organized structure** - Professional directory organization
+- **Organised structure** - Directory organisation
 - **Quality focus** - Subtle excellence over marketing excess
 
 ---
 
-**🌑 Ortho4XP Dark Edition: Professional interface enhancement for discerning aviation enthusiasts. 🇮🇪✈️**
+**🌑 Ortho4XP Dark Edition: Interface enhancement for discerning aviation enthusiasts. 🇮🇪✈️**
 
 *"Quality speaks louder than marketing."*
 
@@ -546,11 +558,11 @@ This project builds upon Ortho4XP and respects all original license terms. See o
 ## 🚀 Ready to Begin?
 
 ```bash
-# Launch the professional interface
+# Launch the interface
 python enhanced_launcher.py
 
 # Or dive straight into the dark theme experience
 python Ortho4XPDark.py
 ```
 
-**Welcome to professional scenery generation! ✈️🌑🇮🇪**
+**Welcome to scenery generation! ✈️🌑🇮🇪**
