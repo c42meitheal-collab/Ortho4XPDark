@@ -34,7 +34,7 @@ We actively maintain security for the following versions of Ortho4XPDark:
 For security vulnerabilities, please report privately to maintainers:
 
 1. **GitHub Security Advisories**: Use GitHub's private vulnerability reporting
-2. **Email Contact**: security@ortho4xpdark.example (replace with actual contact)
+2. **Email Contact**: c42meitheal@gmail.com (replace with actual contact)
 3. **Encrypted Communication**: PGP keys available on request
 
 ### **Information to Include**
