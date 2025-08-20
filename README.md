@@ -1,6 +1,5 @@
 # 🌑 Ortho4XP Dark Edition
 
-![Lama](https://github.com/c42meitheal-collab/Ortho4XPDark-Shadow/blob/main/Lama.png)
 
 **Interface enhancement for Ortho4XP with comprehensive dark theme, forest management, XRoads transparent roads, and Ireland/UK specialisation.**
 
